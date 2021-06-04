@@ -1,0 +1,220 @@
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+.container-fluid {
+    padding: 0;
+}
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #3498db;
+}
+
+/* header */
+.header {
+    background-color: #3498db;
+    height: 70px;
+    line-height: 70px;
+}
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+.menu {
+    float: right;
+}
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: #2C3E50;
+}
+/* banniere */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+.inner-banner {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #0000;
+}
+/* about */
+#about {
+
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 12px;
+}
+.about h2 {
+    text-align: center;
+}
+/* team */
+.portfolio {
+    background-color: #eeeeee;
+}
+#portfolio {
+    text-align: center;
+    height: 100px;
+} 
+.row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+
+.our-webcoderskull{
+  /*background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;*/
+  background-color: #3498db;
+}
+.our-webcoderskull .cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
+   color:#025a8e;
+}
+
+/* footer */
+.contact {
+    background-color: #3c3c3c;
+}
+#contact {
+    color: #ffffff;
+    text-align: center;
+}
+input {
+    margin-bottom: 20px;
+}
+.btnS {
+    width: 50%;
+    margin-bottom: 25px;
+    padding-top: 12px;
+}
